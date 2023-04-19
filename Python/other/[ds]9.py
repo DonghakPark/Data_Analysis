@@ -21,4 +21,3 @@ while True:
 
     nx = x + dx[d]
     ny = y + dy[d]
-
