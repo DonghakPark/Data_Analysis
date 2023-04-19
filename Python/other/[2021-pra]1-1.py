@@ -10,7 +10,7 @@ def solution(n):
     dp_table = [0] * (n + 1)
     dp_table[1] = 1
     dp_table[2] = 2
-
+    
     for index in range(3, n + 1):
         dp_table[index] = (dp_table[index - 1] + dp_table[index - 2]) % mod
 
